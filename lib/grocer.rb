@@ -11,7 +11,9 @@ def find_item_by_name_in_collection(name, collection)
 end 
 
 def find_item_by_name_in_collection(name, collection)
-  if 
+  counter = 0 
+  while counter < collection.length 
+  
  
 
 def consolidate_cart(cart)
