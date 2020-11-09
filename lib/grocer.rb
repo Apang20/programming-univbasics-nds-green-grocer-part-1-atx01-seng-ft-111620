@@ -30,7 +30,9 @@ def consolidate_cart(cart)
   if new_cart_item != nil 
     new_cart_item[:count] += 1 
   else
-    new_cart_item = 1 
+    new_cart_item = {
+      
+    }
   end
   counter += 1 
 end 
