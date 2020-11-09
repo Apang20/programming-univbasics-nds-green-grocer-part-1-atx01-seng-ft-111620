@@ -25,8 +25,6 @@ def consolidate_cart(cart)
         #cart_arr[name] = data
         cart_arr[:item][:count] = 1
       end
-    end
-  end
   cart_arr
 end
 
