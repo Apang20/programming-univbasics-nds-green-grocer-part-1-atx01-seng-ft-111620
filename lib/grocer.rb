@@ -32,6 +32,7 @@ def consolidate_cart(cart)
   else
     new_cart_item = {
       :item => 
+      :price => 
     }
   end
   counter += 1 
