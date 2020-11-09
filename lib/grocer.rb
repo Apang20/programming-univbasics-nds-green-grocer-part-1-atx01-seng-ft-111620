@@ -14,11 +14,11 @@ end
 
 def consolidate_cart(cart)
   cart_arr = []
-  cart.each do |cart_item|  #cart_itme = hash 
+    #cart.each do |cart_item|  #cart_itme = hash 
     #cart_item.each do |name, data|
     # binding.pry 
-      if cart_item[:item] = cart
-         cart_item.each do ||
+      if cart_item[:item] == cart
+         #cart_item.each do ||
          cart_arr[:count] += 1
         
       else
