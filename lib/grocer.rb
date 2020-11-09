@@ -29,7 +29,12 @@ def consolidate_cart(cart)
   new_cart_item = find_item_by_name_in_collection(cart[:counter][:item], new_cart)
   if new_cart_item != nil 
     new_cart_item[:count] += 1 
+  else
+    
+  end
   counter += 1 
+end 
+end 
   
 #   cart_arr = []
 #     #cart.each do |cart_item|  #cart_itme = hash 
