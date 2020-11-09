@@ -10,6 +10,8 @@ def find_item_by_name_in_collection(name, collection)
   nil
 end 
 
+def find_item_by_name_in_collection(name, collection)
+  if 
  
 
 def consolidate_cart(cart)
