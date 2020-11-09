@@ -27,6 +27,7 @@ def consolidate_cart(cart)
   counter = 0 
   while counter < cart.length 
   if cart[:item]
+  counter += 1 
   
 #   cart_arr = []
 #     #cart.each do |cart_item|  #cart_itme = hash 
