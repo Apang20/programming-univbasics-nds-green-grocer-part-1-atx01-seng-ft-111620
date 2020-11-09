@@ -18,22 +18,25 @@ def find_item_by_name_in_collection(name, collection)
 end
 counter += 1 
 end
+#nil
 end 
  
 
 def consolidate_cart(cart)
-  cart_arr = []
-    #cart.each do |cart_item|  #cart_itme = hash 
-    #cart_item.each do |name, data|
-    # binding.pry 
-      if cart_item[:item] == cart
-         #cart_item.each do ||
-         cart_arr[:count] += 1
+  
+  
+#   cart_arr = []
+#     #cart.each do |cart_item|  #cart_itme = hash 
+#     #cart_item.each do |name, data|
+#     # binding.pry 
+#       if cart_item[:item] == cart
+#         #cart_item.each do ||
+#         cart_arr[:count] += 1
         
-      else
-        #cart_arr[name] = data
-        cart_arr[:item][:count] = 1
-      end
-  cart_arr
-end
+#       else
+#         #cart_arr[name] = data
+#         cart_arr[:item][:count] = 1
+#       end
+#   cart_arr
+# end
 
