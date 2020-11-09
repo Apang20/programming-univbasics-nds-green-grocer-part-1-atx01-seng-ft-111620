@@ -24,7 +24,7 @@ end
 
 def consolidate_cart(cart)
   new_cart = []
-  
+  if cart_item[:item] == cart 
   
 #   cart_arr = []
 #     #cart.each do |cart_item|  #cart_itme = hash 
